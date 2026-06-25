@@ -1,28 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+.container{
+    width:350px;
+    margin:50px auto;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+    overflow:hidden;
+    text-align:center;
+}
+
+.cover{
+    height:120px;
+    background:#0077ff;
+}
+
+.profile img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:5px solid white;
+    margin-top:-60px;
+}
+
+.profile h2{
+    margin-top:10px;
+}
+
+.profile h4{
+    color:gray;
+    margin:5px;
+}
+
+.about{
+    padding:20px;
+}
+
+.about p{
+    color:#555;
+    line-height:25px;
+}
+
+.info{
+    padding:20px;
+    text-align:left;
+}
+
+.info p{
+    margin:10px 0;
+}
+
+.skills{
+    padding:20px;
+}
+
+.skills span{
+    display:inline-block;
+    background:#0077ff;
+    color:white;
+    padding:8px 15px;
+    border-radius:20px;
+    margin:5px;
+}
+
+button{
+    margin:20px;
+    padding:10px 25px;
+    border:none;
+    background:#0077ff;
+    color:white;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+footer{
+    background:#0077ff;
+    color:white;
+    padding:15px;
+}
+</style>
+
 </head>
 <body>
-    <h1>Nalini Prabakaran</h1>
 
-    <h2>About Me</h2>
-    <p>I am learning Python, Web Development and GitHub.</p>
+<div class="container">
 
-    <h2>Skills</h2>
-    <ul>
-        <li>Python</li>
-        <li>HTML</li>
-        <li>GitHub</li>
-    </ul>
+<div class="cover"></div>
 
-    <h2>Projects</h2>
-    <ul>
-        <li>Portfolio Website</li>
-        <li>Python Programs</li>
-    </ul>
+<div class="profile">
 
-    <h2>Contact</h2>
-    <p>Email: yourmail@example.com</p>
+<img src="profile.jpg" alt="Profile">
+
+<h2>Thilip</h2>
+
+<h4>Software Developer</h4>
+
+</div>
+
+<div class="about">
+
+<p>
+Passionate Python Developer and AI Enthusiast.
+Interested in Web Development, Java, Machine Learning and Software Engineering.
+</p>
+
+</div>
+
+<div class="info">
+
+<p><b>📧 Email:</b> yourmail@gmail.com</p>
+
+<p><b>📍 Location:</b> Tamil Nadu, India</p>
+
+<p><b>🎓 Education:</b> BBA</p>
+
+<p><b>💻 Experience:</b> Fresher</p>
+
+</div>
+
+<div class="skills">
+
+<span>Python</span>
+<span>Java</span>
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>AI</span>
+
+</div>
+
+<button>Download Resume</button>
+
+<footer>
+
+© 2026 Thilip
+
+</footer>
+
+</div>
+
 </body>
 </html>
